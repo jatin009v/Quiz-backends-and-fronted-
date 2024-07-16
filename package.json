@@ -1,0 +1,22 @@
+{
+  "name": "quiz-land",
+  "version": "1.0.0",
+  "description": "A quiz app to create and attend online quizzes.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Aman Gupta, Ayushi Yadav, Manas Rawat",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-session": "^2.0.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.8",
+    "express": "^4.19.2",
+    "mongoose": "^6.13.0",
+    "passport": "^0.5.3",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
